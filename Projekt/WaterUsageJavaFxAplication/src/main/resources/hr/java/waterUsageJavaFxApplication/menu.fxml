@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.waterUsageJavaFxApplication.MenuController">
+   <children>
+      <MenuBar layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Početna">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showWelcomeScreen" text="Idi" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Stanari">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showTenantsSearchScreen" text="Pretraga" />
+                  <MenuItem fx:id="addTenantMenuItem" mnemonicParsing="false" onAction="#showAddTenantScreen" text="Dodaj stanara" />
+                  <MenuItem fx:id="deleteTenantMenuItem" mnemonicParsing="false" onAction="#showDeleteTenantScreen" text="Ukloni stanara" />
+                  <MenuItem fx:id="updateTenantMenuItem" mnemonicParsing="false" onAction="#showUpdateTenantScreen" text="Ažuriraj podatke stanara" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Kućanstva">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showHouseholdsSearchScreen" text="Pretraga" />
+                  <MenuItem fx:id="addHouseholdMenuItem" mnemonicParsing="false" onAction="#showAddHouseholdScreen" text="Dodaj kućanstvo" />
+                  <MenuItem fx:id="deleteHouseholdMenuItem" mnemonicParsing="false" onAction="#showDeleteHouseholdScreen" text="Ukloni kućanstvo" />
+                  <MenuItem fx:id="updateHouseholdMenuItem" mnemonicParsing="false" onAction="#showUpdateHouseholdScreen" text="Ažuriraj kućanstva" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#showBillsSearchScreen" text="Računi">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Pretraga" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Promjene">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showUpdatesScreen" text="Idi" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Servis">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showServiceScreen" text="Idi" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Odjava">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#logout" text="Odjavi se" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

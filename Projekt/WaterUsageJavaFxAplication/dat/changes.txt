@@ -1,0 +1,15 @@
+Napravljene promjene: Vrijeme pranja rublja stanara promijenjeno je iz 4 u 5 minuta;
+2024-02-02T20:08:18.730803500
+Administrator
+Napravljene promjene: Vrijeme pranja rublja stanara promijenjeno je iz 5 u 6 minuta;
+2024-02-02T20:09:24.928124100
+Administrator
+Napravljene promjene: Vrijeme tuširanja stanara promijenjeno je iz 1 u 2 minuta;
+2024-02-02T21:03:45.328310800
+Administrator
+Napravljene promjene:
+2024-02-02T21:12:06.170716800
+Administrator
+Napravljene promjene: Vrijeme tuširanja stanara promijenjeno je iz 5 u 6 minuta;
+2024-02-02T21:14:32.833566500
+Administrator Vlado

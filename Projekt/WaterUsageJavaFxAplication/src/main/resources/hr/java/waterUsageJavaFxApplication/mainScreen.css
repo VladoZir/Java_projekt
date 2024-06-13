@@ -1,0 +1,27 @@
+
+.grid-pane {
+    -fx-background-color: #dae0f7;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-background-color: #204af5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #022891;
+}
+
+.button:hover {
+    -fx-background-color: #022891;
+}
+
+.menu-bar .menu:hover {
+    -fx-background-color: #022891;
+}
+
+.menu-bar .menu .menu-item:hover {
+    -fx-background-color: #022891;
+}

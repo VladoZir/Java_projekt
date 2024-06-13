@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.waterUsageJavaFxApplication.UpdatesScreenController">
+    <children>
+        <fx:include source="menu.fxml" />
+        <GridPane prefHeight="579.0" prefWidth="700.0" styleClass="grid-pane">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+            <children>
+                <Label text="Promjene" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <TableView fx:id="changesTableView" prefHeight="350.0" prefWidth="700.0" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.rowSpan="2">
+               <columns>
+                  <TableColumn fx:id="dateTableColumn" prefWidth="142.39999997615814" text="Datum" />
+                  <TableColumn fx:id="changeDescriptionTableColumn" prefWidth="474.39996337890625" text="Opis promjene" />
+                  <TableColumn fx:id="roleTableColumn" minWidth="0.0" prefWidth="182.4000244140625" text="Rola" />
+               </columns>
+                </TableView>
+            </children>
+        </GridPane>
+    </children>
+</VBox>

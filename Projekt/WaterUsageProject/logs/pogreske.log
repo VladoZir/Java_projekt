@@ -1,0 +1,89 @@
+01.21.2024 - Program pokrenut
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.21.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.23.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.23.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.23.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.23.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.25.2024 - Stanar već postoji!
+01.25.2024 - Stanar već postoji!
+01.25.2024 - Stanar već postoji!
+01.25.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.25.2024 - Kućanstvo već postoji! Pokušaj ponovno!
+01.25.2024 - Kućanstvo već postoji! Pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj veći ili jednak 0, pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj veći ili jednak 0, pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0!
+01.26.2024 - null
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.26.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.26.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.26.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Broj ne smije biti manji od 0! Pokušaj ponovno!
+01.26.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.26.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.27.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.27.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.27.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.27.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.27.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.28.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.28.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.28.2024 - Pogeška pri unosu! Potrebno je unjeti broj, pokušaj ponovno!
+01.28.2024 - Greška prilikom dohvaćanja podataka o stanarima iz datoteke
+java.io.FileNotFoundException: tenants.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at hr.java.waterUsage.utils.FileUtils.getTenantsFromFile(FileUtils.java:26)
+	at hr.java.waterUsage.main.Main.main(Main.java:49)
+01.28.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Greška prilikom serijalizacije podataka o stanarima
+java.io.NotSerializableException: hr.java.waterUsage.model.CarWash
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.waterUsage.utils.FileUtils.serializeTenants(FileUtils.java:147)
+	at hr.java.waterUsage.main.Main.main(Main.java:211)
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.29.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
+01.30.2024 - Kućanstvo ima curenje! Račun će biti uvećan za 15%!
